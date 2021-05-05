@@ -10,7 +10,7 @@
 export POSTGRES_USER=${POSTGRES_USER:="openbmp"}
 export POSTGRES_PASSWORD=${POSTGRES_PASSWORD:="openbmp"}
 export POSTGRES_HOST=${POSTGRES_HOST:="127.0.0.1"}
-exprot POSTGRES_PORT=${POSTGRES_PORT:="5432"}
+export POSTGRES_PORT=${POSTGRES_PORT:="5432"}
 export POSTGRES_DB=${POSTGRES_DB:="openbmp"}
 export MEM=${MEM:="1"}                          # mem in gigabytes
 export PGCONNECT_TIMEOUT=15
